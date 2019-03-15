@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4379430548849982581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1705773418285040833, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2997304140522870086}
+  - component: {fileID: 8178457460572488322}
+  - component: {fileID: 8150777486935864134}
+  m_Layer: 0
+  m_Name: orange_monster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2997304140522870086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 212323663246077426, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379430548849982581}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 334589459079922951}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8178457460572488322
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6491222779240413750, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379430548849982581}
+  m_Mesh: {fileID: 4300000, guid: b757b409496f38c4a8dbb91220cf7db5, type: 3}
+--- !u!23 &8150777486935864134
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6518859253985135602, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4379430548849982581}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: eb4f6f1ab272d4043b512cd1c1a451b0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &4503721742001192309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1579263818724427201, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334589459079922951}
+  - component: {fileID: 1959504017543520949}
+  m_Layer: 0
+  m_Name: orange monster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334589459079922951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503721742001192309}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.986881, y: 0.5, z: -2.7382278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2997304140522870086}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1959504017543520949
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3484463978031913473, guid: 4122230a47d0d1747a6a95c66b9bca13,
+    type: 3}
+  m_PrefabInstance: {fileID: 3189938088430393825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503721742001192309}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 840b5ab13117aaf4680b1b67836ffef4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &3189938088430393825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1579263818724427201, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_Name
+      value: orange monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.986881
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7382278
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444814272953187763, guid: 4122230a47d0d1747a6a95c66b9bca13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4122230a47d0d1747a6a95c66b9bca13, type: 3}
